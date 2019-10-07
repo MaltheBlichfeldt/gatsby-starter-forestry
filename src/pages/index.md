@@ -4,12 +4,12 @@ template: blocks
 blocks:
 - template: block__hero
   component: hero
-  background: primary
+  background: transparent
   title: Forestry's Gatsby Demo
   subtitle: A Gatsby Starter Built for Forestry
 - template: block__feature
   component: feature
-  image: "/src/images/forestry_markdown_editor.png"
+  image: "/src/images/gatsby-astronaut.png"
   background: primary
   orientation: reverse
   title: A CMS for your Gatsby Project
