@@ -36,13 +36,16 @@ public_path: "/src/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
+instant_preview: 
 build:
-  preview_command: npm run forestry:publish
-  publish_command: npm run forestry:publish
   preview_env:
   - PATH_PREFIX=/
+  preview_output_directory: public
+  preview_docker_image: forestryio/build:latest
+  mount_path: "/opt/buildhome/repo"
+  instant_preview_command: npm run forestry:preview
+  publish_command: npm run forestry:publish
   publish_env:
   - PATH_PREFIX=/
-  preview_output_directory: public
   output_directory: public
-  instant_preview_command: npm run forestry:preview
+  preview_command: npm run forestry:publish
