@@ -4,7 +4,7 @@ template: blocks
 blocks:
 - template: block__hero
   component: hero
-  background: transparent
+  background: primary
   title: Forestry's Gatsby Demo
   subtitle: A Gatsby Starter Built for Forestry
 - template: block__feature
@@ -37,13 +37,16 @@ blocks:
     title: Content Lives in Git
     content: Content updates are saved to your git repo, so they can by synchronized
       across all environments
+    image: ''
   col2:
     title: Customizable CMS
     content: Forestry easily adapts to your content structure, not the other way around.
+    image: ''
   col3:
     title: Blocks Page Builder
     content: Use blocks to give editors the power to build dynamic pages - like this
       one!
+    image: ''
 - template: block__cta
   component: cta
   background: primary
