@@ -12,6 +12,11 @@ fields:
   type: text
   hidden: false
   default: ''
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
 - name: description
   label: Description
   type: textarea
@@ -23,6 +28,6 @@ fields:
   config:
     wysiwyg: true
     schema:
-      format: inline_html
+      format: html
   hidden: false
   default: ''
