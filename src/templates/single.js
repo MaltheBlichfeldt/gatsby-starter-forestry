@@ -50,15 +50,5 @@ export const pageQuery = graphql`
         title
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      id
-      excerpt
-      html
-      frontmatter {
-        title
-        subtitle
-        date(formatString: "MMMM DD, YYYY")
-      }
-    }
   }
 `
