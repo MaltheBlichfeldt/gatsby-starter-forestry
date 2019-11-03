@@ -32,7 +32,6 @@ exports.createPages = ({ graphql, actions }) => {
                   }
                   frontmatter {
                     title
-                    subtitle
                     template
                     date(formatString: "MMMM DD, YYYY")
                   }

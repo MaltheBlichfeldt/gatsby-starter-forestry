@@ -11,7 +11,6 @@ const CTA = ({ block }) => (
     <div className="hero-body">
       <div className="container">
         <h2 className="title is-2">{block.title}</h2>
-        {block.subtitle && <p className="subtitle">{block.subtitle}</p>}
         <a
           target="_blank"
           rel="noopener noreferrer"
