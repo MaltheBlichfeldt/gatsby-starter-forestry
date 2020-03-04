@@ -45,8 +45,4 @@ build:
   preview_docker_image: forestryio/build:latest
   mount_path: "/opt/buildhome/repo"
   instant_preview_command: npm run forestry:preview
-  publish_command: npm run forestry:publish
-  publish_env:
-  - PATH_PREFIX=/
-  output_directory: public
   preview_command: npm run forestry:publish
