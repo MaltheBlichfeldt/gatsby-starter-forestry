@@ -4,9 +4,9 @@ template: blocks
 blocks:
 - template: block__hero
   component: hero
-  background: transparent
-  title: Forestry's Gatsby Demo
-  subtitle: A Gatsby Starter Built for Forestrysdfsfsdfsdfsdf
+  background: primary
+  title: hej med digsdfsdfsdfdsfsdf
+  subtitle: A Gatsby Starter Built for Forestrysdfsfsdfsdfsdfsdfsdfsdfsdf
 - template: block__feature
   component: feature
   image: "/src/images/gatsby-astronaut.png"
